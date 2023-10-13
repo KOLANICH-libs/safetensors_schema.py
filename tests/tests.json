@@ -1,0 +1,50 @@
+{
+	"__metadata__": {
+		"test": "a"
+	},
+	"B": {
+		"dtype": "U8",
+		"shape": [6],
+		"data_offsets": [0, 6]
+	},
+	"H": {
+		"dtype": "U16",
+		"shape": [6],
+		"data_offsets": [6, 18]
+	},
+	"I": {
+		"dtype": "U32",
+		"shape": [6],
+		"data_offsets": [18, 42]
+	},
+	"b": {
+		"dtype": "I8",
+		"shape": [6],
+		"data_offsets": [42, 48]
+	},
+	"d": {
+		"dtype": "F64",
+		"shape": [6],
+		"data_offsets": [48, 96]
+	},
+	"e": {
+		"dtype": "F16",
+		"shape": [6],
+		"data_offsets": [96, 108]
+	},
+	"f": {
+		"dtype": "F32",
+		"shape": [6],
+		"data_offsets": [108, 132]
+	},
+	"h": {
+		"dtype": "I16",
+		"shape": [6],
+		"data_offsets": [132, 144]
+	},
+	"i": {
+		"dtype": "I32",
+		"shape": [6],
+		"data_offsets": [144, 168]
+	}
+}

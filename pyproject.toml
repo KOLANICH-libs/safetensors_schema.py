@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.2.0", "setuptools_scm[toml]>=3.4.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "safetensors_schema"
+readme = "ReadMe.md"
+description = "A fastjsonschema-based verifier for safetensors header JSON"
+authors = [{name = "KOLANICH"}]
+classifiers = [
+	"Development Status :: 4 - Beta",
+	"Environment :: Other Environment",
+	"Intended Audience :: Developers",
+	"License :: Public Domain",
+	"Operating System :: OS Independent",
+	"Programming Language :: Python",
+	"Programming Language :: Python :: 3",
+	"Programming Language :: Python :: 3 :: Only",
+	"Topic :: Software Development :: Libraries :: Python Modules",
+]
+keywords = ["safetensors_schema"]
+license = {text = "Unlicense"}
+requires-python = ">=3.4"
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://codeberg.org/KFmts/safetensors_schema.py"
+
+[tool.setuptools]
+zip-safe = true
+
+[tool.setuptools.packages.find]
+include = ["safetensors_schema", "safetensors_schema.*"]
+
+[tool.setuptools_scm]
+
+[tool.black]
+line-length = 100500
+
