@@ -1,3 +1,7 @@
+from warnings import warn
+
+warn("We have moved from M$ GitHub to https://codeberg.org/KFmts/safetensors_schema.py , read why on https://codeberg.org/KOLANICH/Fuck-GuanTEEnomo .")
+
 # generated with https://github.com/horejsek/python-fastjsonschema with some manual postprocessing
 
 __all__ = ("validate",)
